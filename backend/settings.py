@@ -14,9 +14,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_r(%ro7cqf@w%7s_i0%p=6_iw&=59wk0%7ys+g3ktq&u+eot%4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'sinan77.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -122,6 +122,7 @@ REST_FRAMEWORK = {
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
